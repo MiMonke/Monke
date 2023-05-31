@@ -1,0 +1,29 @@
+/* *{
+    outline: 1px dashed blue;
+} */
+#monke{
+    color: chartreuse;
+    text-align: center;
+}
+table{
+     border: 10px solid chocolate;
+     border-collapse: collapse;
+     /* margin-left: 40%; */
+     margin-left: auto;
+     margin-right: auto;
+     color: darkcyan;
+     background-color: darkgreen;
+}
+td{
+    border: 10px solid chocolate;
+}
+th{
+    border: 10px solid chocolate;
+}
+body{
+    background-color: black;
+}
+#mimonke{
+    width: 999px;
+    height: 999px;
+}
