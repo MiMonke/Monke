@@ -1,0 +1,23 @@
+.meniu li a{
+    text-decoration: none;
+    background-color: darkmagenta;
+}
+
+.meniu li a:hover{
+    background-color: darkcyan;
+
+}
+.meniu li:hover{
+    background-color: deeppink;
+}
+.meniu li{
+    float:left ;
+    list-style-type:none;
+    margin: 20px;
+    background-color: rgb(11, 23, 72);padding: 10px;
+}
+.meniu{
+    margin-left: 33%;
+    
+}
+
