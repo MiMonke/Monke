@@ -1,0 +1,69 @@
+.ContainerNavigatie{
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    background: darkcyan;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.25);
+
+}
+.ContainerNavigatie .Meniu{
+    display: flex;
+    position: relative;
+}
+.ContainerNavigatie .Meniu li{
+    font-size: 30px;
+    flex: 1;
+    list-style: none;
+}
+#monke{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/* #monke a
+{
+    flex: 1;
+} */
+.ContainerNavigatie .Meniu li a{
+ color: black;
+ text-decoration: none;
+ transition: color 0.3s ease;
+}
+.ContainerNavigatie .Meniu li:hover a{
+    color: red;
+}
+.ContainerNavigatie .Meniu li :first-child a{
+ color: red;
+}
+.ContainerNavigatie .Meniu .line{
+    position: absolute;
+    height: 5px;
+    width: 40%;
+    background-color: red;
+    left: 30%;
+    bottom: 0;
+    transition: all 0.3s ease;
+}
+.ContainerNavigatie .Meniu li:nth-child(1):hover ~ .line{
+    left: 0%;
+}
+.ContainerNavigatie .Meniu li:nth-child(3):hover ~ .line{
+    left: 60%;
+}
+.jumbotron{
+    height: 999px;
+    background: 
+    linear-gradient(
+        rgb(0,0,250,0.35),
+        rgb(250,180,125,0.45) ),
+    url("https://source.unsplash.com/random/900x700/?cat");
+    background-size:cover;
+    text-align: center;
+}
+.jumbotron h1{
+    background: linear-gradient(blue,red);
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
