@@ -64,3 +64,67 @@
 .jumbotron h1{
     background: linear-gradient(white, blue);
 }
+.jumbotron .mimonke{
+    text-align: center;
+    -webkit-animation: color-mimonke 3s infinite;
+}
+@-webkit-keyframes color-mimonke{
+    0%, 100%{-webkit-filter: invert(20%) sepia(70%) saturate(3300%) hue-rotate(35deg) brightness(120%) contrast(100%);}
+    50%{-webkit-filter: invert(100%) sepia(10%) saturate(500%) hue-rotate(220deg) brightness(100%) contrast(80%);}
+}
+.continut-text{
+    margin: 5% 10% 5% 10%;
+}
+.jumbotron .mimonke .mimonke1{
+   height: 100px;
+   width: 100px;
+
+}
+.jumbotron .mimonke .mimonke2{
+    height: 100px;
+    width: 100px;
+ }
+ .sectiune_carduri{
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+ .sectiune_carduri h1{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400}
+.lista_carduri{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.element_card{
+    display: flex;
+    padding: 14px;
+}
+@media (min-width: 650px){
+    .element_card{
+        width: 50%;
+    }
+}
+@media (min-width: 900px){
+    .element_card{
+        width: 33%;
+    }
+}
+.sectiune_carduri .card{
+    display: flex;
+    box-shadow: -6px 126px 261px 93px rgba(14,99,179,0.94);
+}
+.sectiune_carduri img{
+    max-width: 100%;
+    height: auto;
+}
+.titlu_card{
+    color: white;
+    font-size: 18px;
+    font-weight: 700 ;
+    letter-spacing: 1px;
+    text-align:center;
+}
